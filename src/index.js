@@ -2,4 +2,4 @@
 * @module yourModuleName
 * @returns {object} output
 */
-export default () => ({ foo: undefined });
+export default () => Promise.resolve({ foo: undefined });
