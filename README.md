@@ -33,8 +33,8 @@ npm install your-module-name --save
 Development
 ---
 Requirement global
-* NodeJS v5.10.0
-* Npm v3.8.3
+* NodeJS v5.11.1
+* Npm v3.8.6 (or [pnpm](https://github.com/rstacruz/pnpm))
 
 ```bash
 git clone https://github.com/59naga/your-module-name
