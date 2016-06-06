@@ -1,5 +1,4 @@
 // dependencies
-import 'babel-polyfill';
 import assert from 'assert';
 
 // target
