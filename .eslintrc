@@ -9,17 +9,15 @@ env:
   mocha: true
 
 rules:
-  valid-jsdoc:
-    - 2
-    - prefer:
-        return: returns
+  async-await/space-after-async: 2
+  async-await/space-after-await: 2
 
-  max-len: 1
   arrow-body-style: 1
+
+  max-len:
+    - 1
+    - 120
 
   complexity:
     - 1
     - max: 10
-
-  async-await/space-after-async: 2
-  async-await/space-after-await: 2
